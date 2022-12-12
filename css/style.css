@@ -1,9 +1,5 @@
 .jumbotron {
     padding-top: 6rem;
-    background-color: #e2edff;
-}
-
-.hero {
     display: block;
     justify-content: center;
     align-items: center;
@@ -14,13 +10,11 @@
     font-size: 3em;
     position: relative;
     overflow: hidden;
-    min-height: 70vh;
-    padding-top: 200px;
 }
 
-.gelombang {
-    position: relative;
-    padding-top: 75px;
+
+svg {
+    padding-top: 20%;
 }
 
 #projects {
@@ -28,7 +22,7 @@
 }
 
 section {
-    padding-top: 3.5rem;
+    padding-top: 6rem;
 }
 
 .video-bg {
