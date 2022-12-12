@@ -1,12 +1,41 @@
-.jumbotron{
+.jumbotron {
     padding-top: 6rem;
     background-color: #e2edff;
 }
 
-#projects{
+.hero {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /*background-color: rgba(0, 0, 0, 0.); */
+    background-image: linear-gradient(to right, rgba(5, 117, 230, 0.3), rgba(242, 137, 0, 0.3));
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 3em;
+    position: relative;
+    overflow: hidden;
+    min-height: 70vh;
+    padding-top: 200px;
+}
+
+.gelombang {
+    position: relative;
+    padding-top: 75px;
+}
+
+#projects {
     background-color: #e2edff;
 }
 
-section{
-    padding-top: 5rem;
+section {
+    padding-top: 3.5rem;
+}
+
+.video-bg {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    min-height: 100%;
+    min-width: 100%;
+    z-index: -1;
 }
