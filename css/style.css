@@ -1,5 +1,5 @@
 .jumbotron {
-    padding-top: 6rem;
+    padding-top: 10rem;
     display: block;
     justify-content: center;
     align-items: center;
@@ -14,7 +14,7 @@
 
 
 svg {
-    padding-top: 20%;
+    margin-top: 10px;
 }
 
 #projects {
